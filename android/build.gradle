@@ -29,15 +29,15 @@ android {
         namespace 'com.example.imagegallerysaver'
     }
     
-    compileSdkVersion 30
+    compileSdkVersion 34
     
     compileOptions {
-        sourceCompatibility JavaVersion.VERSION_17
-        targetCompatibility JavaVersion.VERSION_17
+        sourceCompatibility JavaVersion.VERSION_1.8
+        targetCompatibility JavaVersion.VERSION_1.8
     }
  
     kotlinOptions {
-        jvmTarget = '17'
+        jvmTarget = '1.8'
     }
 
     sourceSets {
@@ -45,6 +45,7 @@ android {
     }
     defaultConfig {
         minSdkVersion 16
+        targetSdkVersion 34
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
     lintOptions {
